@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./calculator.css" />
+    <!-- icono -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- javaScript -->
+    <script src="./calculator.js"></script>
+  <body>
+    <div class="container">
+      <h1>Calculadora</h1>
+      <div id="output">0.0</div>
+
+      <input type="text" id="input1" placeholder="Ingresa Aqui" />
+      <input type="text" id="input2" placeholder="Ingresa Aqui" />
+
+      <div class="btns-container">
+        <button class="btns" onclick="add()">Sumar</button>
+        <button class="btns" onclick="sub()">Restar</button>
+        <button class="btns" onclick="mul()">Multiplicar</button>
+        <button class="btns" onclick="div()">Division</button>
+        <button class="btns" onclick="reset()" id="reset">Reiniciar</button>
+      </div>
+      <br />
+    </div>
+    <footer>
+      <a href="https://github.com/Bemontx" target="_blank"
+        >By Jeisson Cardozo</a
+      >
+      <i id="icon" class='bx bxl-github'></i>
+    </footer>
+  </body>
+</html>
